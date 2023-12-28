@@ -9,7 +9,7 @@ Avatars to infuse a touch of whimsy and individuality into the M3tering Protocol
 
    ```javascript
    import * as React from 'react';
-   import M3terHead from 'm3ter-head';
+   import M3terHead from 'm3ters-js';
    ```
 
 2. Render the avatar within your component, providing a unique seed string for generation:
