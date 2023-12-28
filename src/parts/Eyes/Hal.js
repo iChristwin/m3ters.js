@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Hal = () => {
   return (
     <>
@@ -41,6 +39,6 @@ const Hal = () => {
         fill="#F5F94F"
       />
     </>
-  )
-}
-export default Hal
+  );
+};
+export default Hal;

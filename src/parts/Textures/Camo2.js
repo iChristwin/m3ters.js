@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Camo2 = () => {
   return (
     <>
@@ -25,6 +23,6 @@ const Camo2 = () => {
         fillOpacity="0.1"
       />
     </>
-  )
-}
-export default Camo2
+  );
+};
+export default Camo2;

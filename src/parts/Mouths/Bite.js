@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Bite = () => {
   return (
     <>
@@ -46,6 +44,6 @@ const Bite = () => {
         fill="#E1E6E8"
       />
     </>
-  )
-}
-export default Bite
+  );
+};
+export default Bite;

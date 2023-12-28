@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Artuito = () => {
   return (
     <>
@@ -31,6 +29,6 @@ const Artuito = () => {
         fill="white"
       />
     </>
-  )
-}
-export default Artuito
+  );
+};
+export default Artuito;

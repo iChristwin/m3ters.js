@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Dirty2 = () => {
   return (
     <>
@@ -25,6 +23,6 @@ const Dirty2 = () => {
         fillOpacity="0.4"
       />
     </>
-  )
-}
-export default Dirty2
+  );
+};
+export default Dirty2;

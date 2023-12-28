@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Hearts = () => {
   return (
     <>
@@ -14,6 +12,6 @@ const Hearts = () => {
         fillOpacity="0.8"
       />
     </>
-  )
-}
-export default Hearts
+  );
+};
+export default Hearts;

@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Robocop = () => {
   return (
     <>
@@ -16,6 +14,6 @@ const Robocop = () => {
         strokeLinecap="round"
       />
     </>
-  )
-}
-export default Robocop
+  );
+};
+export default Robocop;

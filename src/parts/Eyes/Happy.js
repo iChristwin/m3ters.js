@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Happy = () => {
   return (
     <>
@@ -32,6 +30,6 @@ const Happy = () => {
         strokeLinejoin="round"
       />
     </>
-  )
-}
-export default Happy
+  );
+};
+export default Happy;

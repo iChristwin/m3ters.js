@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Smile1 = () => {
   return (
     <>
@@ -9,6 +7,6 @@ const Smile1 = () => {
         fillOpacity="0.6"
       />
     </>
-  )
-}
-export default Smile1
+  );
+};
+export default Smile1;

@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Bulging = () => {
   return (
     <>
@@ -48,6 +46,6 @@ const Bulging = () => {
         fillOpacity="0.8"
       />
     </>
-  )
-}
-export default Bulging
+  );
+};
+export default Bulging;

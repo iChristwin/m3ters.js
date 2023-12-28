@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Eva = () => {
   return (
     <>
@@ -23,6 +21,6 @@ const Eva = () => {
         fill="#25A6F5"
       />
     </>
-  )
-}
-export default Eva
+  );
+};
+export default Eva;

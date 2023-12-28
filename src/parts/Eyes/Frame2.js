@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Frame2 = () => {
   return (
     <>
@@ -22,6 +20,6 @@ const Frame2 = () => {
         fillOpacity="0.4"
       />
     </>
-  )
-}
-export default Frame2
+  );
+};
+export default Frame2;

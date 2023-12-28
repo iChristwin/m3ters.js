@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Dots = () => {
   return (
     <>
@@ -18,6 +16,6 @@ const Dots = () => {
         fillOpacity="0.1"
       />
     </>
-  )
-}
-export default Dots
+  );
+};
+export default Dots;

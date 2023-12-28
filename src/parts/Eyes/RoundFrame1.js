@@ -1,5 +1,3 @@
-import React from 'react'
-
 const RoundFrame1 = () => {
   return (
     <>
@@ -14,6 +12,6 @@ const RoundFrame1 = () => {
       <rect x="24" y="22" width="10" height="12" rx="2" fill="#F4F4F4" />
       <rect x="70" y="22" width="10" height="12" rx="2" fill="#F4F4F4" />
     </>
-  )
-}
-export default RoundFrame1
+  );
+};
+export default RoundFrame1;

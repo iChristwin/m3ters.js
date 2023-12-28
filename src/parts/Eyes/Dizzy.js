@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Dizzy = () => {
   return (
     <>
@@ -18,6 +16,6 @@ const Dizzy = () => {
         fillOpacity="0.8"
       />
     </>
-  )
-}
-export default Dizzy
+  );
+};
+export default Dizzy;

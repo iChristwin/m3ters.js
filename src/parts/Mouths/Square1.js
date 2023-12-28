@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Square1 = () => {
   return (
     <>
@@ -13,6 +11,6 @@ const Square1 = () => {
         fillOpacity="0.8"
       />
     </>
-  )
-}
-export default Square1
+  );
+};
+export default Square1;

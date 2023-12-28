@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Artuito = () => {
   return (
     <>
@@ -27,6 +25,6 @@ const Artuito = () => {
         fillOpacity="0.4"
       />
     </>
-  )
-}
-export default Artuito
+  );
+};
+export default Artuito;

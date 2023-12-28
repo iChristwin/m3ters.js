@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Shade = () => {
   return (
     <>
@@ -42,6 +40,6 @@ const Shade = () => {
         />
       </g>
     </>
-  )
-}
-export default Shade
+  );
+};
+export default Shade;

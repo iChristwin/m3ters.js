@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Diagram = () => {
   return (
     <>
@@ -29,6 +27,6 @@ const Diagram = () => {
         strokeLinejoin="round"
       />
     </>
-  )
-}
-export default Diagram
+  );
+};
+export default Diagram;

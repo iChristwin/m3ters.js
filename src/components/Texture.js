@@ -1,4 +1,3 @@
-import React from "react";
 import { Camo1, Camo2, Dirty1, Dirty2, Dots } from "../parts/Textures";
 
 const Texture = (props) => {

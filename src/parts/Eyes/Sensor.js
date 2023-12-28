@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Sensor = () => {
   return (
     <>
@@ -30,6 +28,6 @@ const Sensor = () => {
         fill="white"
       />
     </>
-  )
-}
-export default Sensor
+  );
+};
+export default Sensor;

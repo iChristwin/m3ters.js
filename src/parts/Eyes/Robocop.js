@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Robocop = () => {
   return (
     <>
@@ -40,6 +38,6 @@ const Robocop = () => {
         />
       </g>
     </>
-  )
-}
-export default Robocop
+  );
+};
+export default Robocop;

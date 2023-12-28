@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Grill2 = () => {
   return (
     <>
@@ -40,6 +38,6 @@ const Grill2 = () => {
         fillOpacity="0.6"
       />
     </>
-  )
-}
-export default Grill2
+  );
+};
+export default Grill2;

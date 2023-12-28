@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Round = () => {
   return (
     <>
@@ -16,6 +14,6 @@ const Round = () => {
         fill="white"
       />
     </>
-  )
-}
-export default Round
+  );
+};
+export default Round;

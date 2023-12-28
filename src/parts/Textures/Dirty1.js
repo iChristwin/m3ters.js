@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Dirty1 = () => {
   return (
     <svg
@@ -31,6 +29,6 @@ const Dirty1 = () => {
         fillOpacity="0.4"
       />
     </svg>
-  )
-}
-export default Dirty1
+  );
+};
+export default Dirty1;

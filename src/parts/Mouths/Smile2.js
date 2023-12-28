@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Smile2 = () => {
   return (
     <>
@@ -30,6 +28,6 @@ const Smile2 = () => {
         <rect x="30" y="2" width="16" height="14" rx="2" fill="white" />
       </g>
     </>
-  )
-}
-export default Smile2
+  );
+};
+export default Smile2;

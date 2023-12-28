@@ -11,5 +11,5 @@ React toolkit tailored to M3tering Protocol for handling ugly crypto strings
 1. Add the `m3ter-head` component to your project using npm:
 
    ```bash
-   npm install m3ters-js --save
+   npm install m3ters --save
    ```

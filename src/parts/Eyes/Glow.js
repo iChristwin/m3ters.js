@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Glow = () => {
   return (
     <>
@@ -60,6 +58,6 @@ const Glow = () => {
         fillOpacity="0.8"
       />
     </>
-  )
-}
-export default Glow
+  );
+};
+export default Glow;
