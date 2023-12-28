@@ -1,4 +1,4 @@
-const Robocop = () => {
+export const Robocop = () => {
   return (
     <>
       <rect
@@ -40,4 +40,3 @@ const Robocop = () => {
     </>
   );
 };
-export default Robocop;

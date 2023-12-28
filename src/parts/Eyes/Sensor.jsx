@@ -1,4 +1,4 @@
-const Sensor = () => {
+export const Sensor = () => {
   return (
     <>
       <path
@@ -30,4 +30,3 @@ const Sensor = () => {
     </>
   );
 };
-export default Sensor;

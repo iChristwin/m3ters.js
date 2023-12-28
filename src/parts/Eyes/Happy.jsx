@@ -1,4 +1,4 @@
-const Happy = () => {
+export const Happy = () => {
   return (
     <>
       <path
@@ -32,4 +32,3 @@ const Happy = () => {
     </>
   );
 };
-export default Happy;

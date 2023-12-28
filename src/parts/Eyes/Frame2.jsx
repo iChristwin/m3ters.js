@@ -1,4 +1,4 @@
-const Frame2 = () => {
+export const Frame2 = () => {
   return (
     <>
       <rect
@@ -22,4 +22,3 @@ const Frame2 = () => {
     </>
   );
 };
-export default Frame2;

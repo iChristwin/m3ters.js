@@ -1,4 +1,4 @@
-const Artuito = () => {
+export const Artuito = () => {
   return (
     <>
       <path
@@ -31,4 +31,3 @@ const Artuito = () => {
     </>
   );
 };
-export default Artuito;

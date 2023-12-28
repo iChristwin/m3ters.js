@@ -1,4 +1,4 @@
-const RoundFrame1 = () => {
+export const RoundFrame1 = () => {
   return (
     <>
       <rect
@@ -14,4 +14,3 @@ const RoundFrame1 = () => {
     </>
   );
 };
-export default RoundFrame1;

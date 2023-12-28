@@ -1,4 +1,4 @@
-const Dirty2 = () => {
+export const Dirty2 = () => {
   return (
     <>
       <path
@@ -25,4 +25,3 @@ const Dirty2 = () => {
     </>
   );
 };
-export default Dirty2;

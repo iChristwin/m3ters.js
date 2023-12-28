@@ -1,4 +1,4 @@
-const Glow = () => {
+export const Glow = () => {
   return (
     <>
       <path
@@ -60,4 +60,3 @@ const Glow = () => {
     </>
   );
 };
-export default Glow;

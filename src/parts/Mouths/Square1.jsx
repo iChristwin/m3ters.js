@@ -1,4 +1,4 @@
-const Square1 = () => {
+export const Square1 = () => {
   return (
     <>
       <rect
@@ -13,4 +13,3 @@ const Square1 = () => {
     </>
   );
 };
-export default Square1;

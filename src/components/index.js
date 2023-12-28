@@ -1,1 +1,1 @@
-export { default } from './M3terHead'
+export * from './M3terHead'

@@ -1,4 +1,4 @@
-const Dots = () => {
+export const Dots = () => {
   return (
     <>
       <path
@@ -18,4 +18,3 @@ const Dots = () => {
     </>
   );
 };
-export default Dots;

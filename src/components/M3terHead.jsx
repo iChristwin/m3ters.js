@@ -4,7 +4,7 @@ import Texture from "./Texture";
 
 import seedrandom from "seedrandom";
 
-const M3terHead = (seed) => {
+export const M3terHead = (seed) => {
   const random = seedrandom(seed);
   let eyes = Math.round(random() * 15);
   let mouth = Math.round(random() * 11);
@@ -37,6 +37,4 @@ const M3terHead = (seed) => {
       <Mouth type={mouth} />
     </svg>
   );
-}
-
-export default M3terHead;
+};

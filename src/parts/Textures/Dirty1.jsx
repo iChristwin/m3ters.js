@@ -1,4 +1,4 @@
-const Dirty1 = () => {
+export const Dirty1 = () => {
   return (
     <svg
       width="165"
@@ -31,4 +31,3 @@ const Dirty1 = () => {
     </svg>
   );
 };
-export default Dirty1;

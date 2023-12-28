@@ -1,4 +1,4 @@
-const Round = () => {
+export const Round = () => {
   return (
     <>
       <path
@@ -16,4 +16,3 @@ const Round = () => {
     </>
   );
 };
-export default Round;

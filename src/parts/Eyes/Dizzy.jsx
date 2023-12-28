@@ -1,4 +1,4 @@
-const Dizzy = () => {
+export const Dizzy = () => {
   return (
     <>
       <path
@@ -18,4 +18,3 @@ const Dizzy = () => {
     </>
   );
 };
-export default Dizzy;

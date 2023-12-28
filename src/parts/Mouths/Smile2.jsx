@@ -1,4 +1,4 @@
-const Smile2 = () => {
+export const Smile2 = () => {
   return (
     <>
       <path
@@ -30,4 +30,3 @@ const Smile2 = () => {
     </>
   );
 };
-export default Smile2;

@@ -1,4 +1,4 @@
-const Robocop = () => {
+export const Robocop = () => {
   return (
     <>
       <path
@@ -16,4 +16,3 @@ const Robocop = () => {
     </>
   );
 };
-export default Robocop;

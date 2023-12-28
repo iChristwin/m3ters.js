@@ -1,4 +1,4 @@
-const Artuito = () => {
+export const Artuito = () => {
   return (
     <>
       <rect width="8" height="27" fill="#0040AE" fillOpacity="0.8" />
@@ -27,4 +27,3 @@ const Artuito = () => {
     </>
   );
 };
-export default Artuito;

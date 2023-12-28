@@ -1,4 +1,4 @@
-const Hearts = () => {
+export const Hearts = () => {
   return (
     <>
       <path
@@ -14,4 +14,3 @@ const Hearts = () => {
     </>
   );
 };
-export default Hearts;

@@ -1,4 +1,4 @@
-const Hal = () => {
+export const Hal = () => {
   return (
     <>
       <path
@@ -41,4 +41,3 @@ const Hal = () => {
     </>
   );
 };
-export default Hal;

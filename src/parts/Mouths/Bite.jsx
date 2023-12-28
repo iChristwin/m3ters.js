@@ -1,4 +1,4 @@
-const Bite = () => {
+export const Bite = () => {
   return (
     <>
       <rect
@@ -46,4 +46,3 @@ const Bite = () => {
     </>
   );
 };
-export default Bite;

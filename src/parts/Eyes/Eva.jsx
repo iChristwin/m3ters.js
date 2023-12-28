@@ -1,4 +1,4 @@
-const Eva = () => {
+export const Eva = () => {
   return (
     <>
       <path
@@ -23,4 +23,3 @@ const Eva = () => {
     </>
   );
 };
-export default Eva;

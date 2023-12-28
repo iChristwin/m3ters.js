@@ -1,4 +1,4 @@
-const Bulging = () => {
+export const Bulging = () => {
   return (
     <>
       <path
@@ -48,4 +48,3 @@ const Bulging = () => {
     </>
   );
 };
-export default Bulging;

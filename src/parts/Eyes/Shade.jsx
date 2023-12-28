@@ -1,4 +1,4 @@
-const Shade = () => {
+export const Shade = () => {
   return (
     <>
       <path
@@ -42,4 +42,3 @@ const Shade = () => {
     </>
   );
 };
-export default Shade;

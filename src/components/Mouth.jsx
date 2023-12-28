@@ -12,7 +12,7 @@ import {
   Square2,
 } from "../parts/Mouths";
 
-const Mouth = (props) => {
+export const Mouth = (props) => {
   const types = {
     None: null,
     Arturito,
@@ -35,4 +35,3 @@ const Mouth = (props) => {
     </g>
   );
 };
-export default Mouth;

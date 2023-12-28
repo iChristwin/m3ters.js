@@ -17,7 +17,7 @@ import {
   Shade,
 } from "../parts/Eyes";
 
-const Eyes = (props) => {
+export const Eyes = (props) => {
   const types = {
     Arturito,
     Bulging,
@@ -44,5 +44,3 @@ const Eyes = (props) => {
     </g>
   );
 };
-
-export default Eyes;

@@ -1,4 +1,4 @@
-const Grill1 = () => {
+export const Grill1 = () => {
   return (
     <>
       <rect
@@ -49,4 +49,3 @@ const Grill1 = () => {
     </>
   );
 };
-export default Grill1;

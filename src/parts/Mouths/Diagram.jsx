@@ -1,4 +1,4 @@
-const Diagram = () => {
+export const Diagram = () => {
   return (
     <>
       <rect
@@ -29,4 +29,3 @@ const Diagram = () => {
     </>
   );
 };
-export default Diagram;

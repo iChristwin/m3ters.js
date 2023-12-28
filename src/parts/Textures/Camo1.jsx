@@ -1,4 +1,4 @@
-const Camo1 = () => {
+export const Camo1 = () => {
   return (
     <>
       <path
@@ -25,4 +25,3 @@ const Camo1 = () => {
     </>
   );
 };
-export default Camo1;

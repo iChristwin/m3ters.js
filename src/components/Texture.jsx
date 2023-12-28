@@ -1,6 +1,6 @@
 import { Camo1, Camo2, Dirty1, Dirty2, Dots } from "../parts/Textures";
 
-const Texture = (props) => {
+export const Texture = (props) => {
   const types = {
     None: null,
     Camo1,
@@ -17,4 +17,3 @@ const Texture = (props) => {
     </g>
   );
 };
-export default Texture;
