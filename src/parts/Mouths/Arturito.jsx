@@ -1,4 +1,4 @@
-export const Artuito = () => {
+export const Arturito = () => {
   return (
     <>
       <rect width="8" height="27" fill="#0040AE" fillOpacity="0.8" />

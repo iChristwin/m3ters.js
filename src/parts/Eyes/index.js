@@ -1,35 +1,16 @@
-import Arturito from "./Arturito";
-import Bulging from "./Bulging";
-import Dizzy from "./Dizzy";
-import Eva from "./Eva";
-import Frame1 from "./Frame1";
-import Frame2 from "./Frame2";
-import Glow from "./Glow";
-import Hal from "./Hal";
-import Happy from "./Happy";
-import Hearts from "./Hearts";
-import Robocop from "./Robocop";
-import Round from "./Round";
-import RoundFrame1 from "./RoundFrame1";
-import RoundFrame2 from "./RoundFrame2";
-import Sensor from "./Sensor";
-import Shade from "./Shade";
-
-export {
-  Arturito,
-  Bulging,
-  Dizzy,
-  Eva,
-  Frame1,
-  Frame2,
-  Glow,
-  Hal,
-  Happy,
-  Hearts,
-  Robocop,
-  Round,
-  RoundFrame1,
-  RoundFrame2,
-  Sensor,
-  Shade,
-};
+export { Arturito } from "./Arturito";
+export { Bulging } from "./Bulging";
+export { Dizzy } from "./Dizzy";
+export { Eva } from "./Eva";
+export { Frame1 } from "./Frame1";
+export { Frame2 } from "./Frame2";
+export { Glow } from "./Glow";
+export { Hal } from "./Hal";
+export { Happy } from "./Happy";
+export { Hearts } from "./Hearts";
+export { Robocop } from "./Robocop";
+export { Round } from "./Round";
+export { RoundFrame1 } from "./RoundFrame1";
+export { RoundFrame2 } from "./RoundFrame2";
+export { Sensor } from "./Sensor";
+export { Shade } from "./Shade";

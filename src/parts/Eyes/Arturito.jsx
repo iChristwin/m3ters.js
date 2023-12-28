@@ -1,4 +1,4 @@
-export const Artuito = () => {
+export const Arturito = () => {
   return (
     <>
       <path

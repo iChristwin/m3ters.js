@@ -1,6 +1,6 @@
-import Eyes from "./Eyes";
-import Mouth from "./Mouth";
-import Texture from "./Texture";
+import { Eyes } from "./Eyes";
+import { Mouth } from "./Mouth";
+import { Texture } from "./Texture";
 
 import seedrandom from "seedrandom";
 
