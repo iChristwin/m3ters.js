@@ -31,7 +31,7 @@ const Mouth = (props) => {
   const Type = types[typeKeys[props.type]];
   return (
     <g id="mouth_part" transform="translate(52, 124)">
-      <Type />
+      {Type && <Type />}
     </g>
   );
 };
