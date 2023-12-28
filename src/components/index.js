@@ -1,0 +1,1 @@
+export { default as M3terHead } from './M3terHead'
