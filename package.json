@@ -18,12 +18,16 @@
   "bugs": {
     "url": "https://github.com/iChristwin/m3ters.js/issues"
   },
-  "peerDependencies": {
+  "dependencies": {
+    "seedrandom": "^3.0.5"
+  },
+  "devDependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
-  "dependencies": {
-    "seedrandom": "^3.0.5"
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "main": "src/index.js",
   "scripts": {
