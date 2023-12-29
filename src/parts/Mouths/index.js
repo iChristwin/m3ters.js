@@ -1,3 +1,5 @@
+import React from 'react';
+
 export { Arturito } from "./Arturito";
 export { Bite } from "./Bite";
 export { Diagram } from "./Diagram";

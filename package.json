@@ -41,6 +41,7 @@
     "rollup": "rollup -c"
   },
   "type": "module",
+  "source": "src/index.js",
   "main": "dist/index.cjs",
   "module": "dist/index.js",
   "files": [
