@@ -6,7 +6,7 @@ import terser from "@rollup/plugin-terser";
 export default [
   {
     input: "src/index.js",
-    external: ["react", "react-dom", "seedrandom"],
+    external: [/@babel\/core/, /@babel\/preset-react/, /react/, /react-dom/],
     output: [
       {
         file: "dist/index.cjs",
@@ -19,16 +19,16 @@ export default [
       },
     ],
     plugins: [
-      babel({
-        exclude: "node_modules/**",
-        presets: ["@babel/preset-react"],
-        babelHelpers: "bundled",
-      }),
       resolve({
         moduleDirectories: ["node_modules", "src"],
         extensions: [".js", ".jsx"],
       }),
       commonjs(),
+      babel({
+        exclude: "node_modules/**",
+        presets: ["@babel/preset-react"],
+        babelHelpers: "bundled",
+      }),
       terser(),
     ],
   },
