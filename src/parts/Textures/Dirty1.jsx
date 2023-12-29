@@ -1,3 +1,5 @@
+import React from 'react';
+
 export const Dirty1 = () => {
   return (
     <svg

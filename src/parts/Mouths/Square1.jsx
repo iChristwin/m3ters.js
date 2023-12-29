@@ -1,3 +1,5 @@
+import React from 'react';
+
 export const Square1 = () => {
   return (
     <>

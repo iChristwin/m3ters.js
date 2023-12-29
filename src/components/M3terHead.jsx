@@ -1,3 +1,4 @@
+import React from 'react';
 import { Eyes } from "./Eyes";
 import { Mouth } from "./Mouth";
 import { Texture } from "./Texture";

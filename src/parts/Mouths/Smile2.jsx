@@ -1,3 +1,5 @@
+import React from 'react';
+
 export const Smile2 = () => {
   return (
     <>

@@ -1,1 +1,1 @@
-export * from './M3terHead'
+export * from "./M3terHead.jsx";
