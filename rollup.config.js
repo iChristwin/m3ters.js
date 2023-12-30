@@ -9,13 +9,17 @@ export default [
     external: [/@babel\/core/, /@babel\/preset-react/, /react/, /react-dom/],
     output: [
       {
-        file: "dist/index.cjs",
+        dir: "dist/cjs/",
         format: "cjs",
+        sourcemap: true,
+        entryFileNames: "[name].cjs",
       },
       {
-        file: "dist/index.js",
-        format: "es",
+        dir: "dist/esm/",
+        format: "esm",
         exports: "named",
+        sourcemap: true,
+        entryFileNames: "[name].js",
       },
     ],
     plugins: [

@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 export { Arturito } from "./Arturito";
 export { Bulging } from "./Bulging";

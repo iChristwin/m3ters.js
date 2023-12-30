@@ -1,9 +1,9 @@
 import React from 'react';
+import seedrandom from "seedrandom";
+
 import { Eyes } from "./Eyes";
 import { Mouth } from "./Mouth";
 import { Texture } from "./Texture";
-
-import seedrandom from "seedrandom";
 
 export const M3terHead = (seed) => {
   const random = seedrandom(seed);
