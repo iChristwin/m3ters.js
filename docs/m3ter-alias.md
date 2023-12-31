@@ -11,7 +11,7 @@ Effortlessly create captivating names that instantly distinguish each device, an
    import { M3terAlias } from "m3ters";
    ```
 
-2. Render the alias within your component, providing a unique seed string for generation:
+2. Render the alias within your component, providing your input string for conversion:
 
    ```jsx
    export default function Home() {
@@ -29,7 +29,6 @@ Effortlessly create captivating names that instantly distinguish each device, an
 ## Credits
 
 Inspired by a similar JavaScript library, [angry-purple-tiger](https://github.com/helium/angry-purple-tiger) developed by [Andrew Allen](https://twitter.com/allenan_) for the Helium Network.
-
 
 ## Licensing
 
