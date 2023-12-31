@@ -67,14 +67,6 @@ The library was developed, tested and is guaranteed to function properly on
 - npm: `9.8.1`
 - react: `18.2.0`
 
-Should also be compatible with all major desktop and mobile browsers including but not limited to
-
-- Firefox
-- Chrome
-- Edge
-- Brave
-- Waterfox
-
 ## Example App
 
 Check out the my example GitHub repo, [ichristwin/demo-m3ters](https://github.com/ichristwin/demo-m3ters). You could also experience the live implementation of at https://m3ters.ichristwin.com
