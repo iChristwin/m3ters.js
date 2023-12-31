@@ -44,7 +44,7 @@ If you prefer a package manager other than npm or yarn, you can also try:
 
 ### 3. Direct Download:
 
-- Access the m3ters.js repository on GitHub: [here](https://github.com/iChristwin/m3ters.js/releases)
+- Access the m3ters.js releases on GitHub: [here](https://github.com/iChristwin/m3ters.js/releases)
 - Download the latest `.zip` or `.tar.gz` file containing the library source code.
 - Extract the contents into your project's directory.
 - Import components directly from the extracted files.
