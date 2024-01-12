@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import seedrandom from "seedrandom";
 
 import { Eyes } from "./Eyes";
@@ -19,7 +19,7 @@ export const M3terHead = (seed) => {
       xmlns="http://www.w3.org/2000/svg"
       width="500"
       height="500"
-      viewBox="-20 0 222 222"
+      viewBox="-34 -15 250 250"
     >
       <mask id="facemask" mask-type="alpha" maskUnits="userSpaceOnUse">
         <g transform="matrix(0.12191378,0,0,0.12191378,-56.4,-500)">
