@@ -1,5 +1,3 @@
-import React from "react";
-
 export { Arturito } from "./Arturito";
 export { Bulging } from "./Bulging";
 export { Dizzy } from "./Dizzy";

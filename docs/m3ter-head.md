@@ -17,7 +17,7 @@ Avatars to infuse a touch of whimsy and individuality into the M3tering Protocol
    export default function Home() {
      return (
        <>
-         <M3terHead seed={"device_DID_string"} />
+         <M3terHead seed={"device_DID_string"} size={80} />
        </>
      );
    }

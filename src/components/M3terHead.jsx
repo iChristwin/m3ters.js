@@ -1,24 +1,20 @@
 import React from "react";
-import seedrandom from "seedrandom";
 
 import { Eyes } from "./Eyes";
 import { Mouth } from "./Mouth";
 import { Texture } from "./Texture";
+import { m3terProps } from "../utils/props";
 
-export const M3terHead = (seed) => {
-  const random = seedrandom(seed);
-  let eyes = Math.round(random() * 15);
-  let mouth = Math.round(random() * 11);
-  let texture = Math.round(random() * 5);
-  let color = "#" + random().toString(16).slice(2, 8);
+export const M3terHead = ({ seed, size = 500 }) => {
+  const { eyesIndex, mouthIndex, textureIndex, color } = m3terProps(seed);
 
   return (
     <svg
       version="1.1"
-      id="m3ter-head"
+      id={seed}
       xmlns="http://www.w3.org/2000/svg"
-      width="500"
-      height="500"
+      width={size}
+      height={size}
       viewBox="-34 -15 250 250"
     >
       <mask id="facemask" mask-type="alpha" maskUnits="userSpaceOnUse">
@@ -32,10 +28,10 @@ export const M3terHead = (seed) => {
       </mask>
       <g mask="url(#facemask)">
         <rect x="-20" y="-20" width="225" height="220" fill={color} />
-        <Texture type={texture} />
+        <Texture type={textureIndex} />
       </g>
-      <Eyes type={eyes} />
-      <Mouth type={mouth} />
+      <Eyes type={eyesIndex} />
+      <Mouth type={mouthIndex} />
     </svg>
   );
 };

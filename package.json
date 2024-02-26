@@ -1,6 +1,6 @@
 {
   "name": "m3ters",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "license": "CC0-1.0",
   "author": "iChristwin",
   "description": "React toolkit tailored to M3tering Protocol for handling ugly crypto strings",

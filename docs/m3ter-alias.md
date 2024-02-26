@@ -17,7 +17,7 @@ Effortlessly create captivating names that instantly distinguish each device, an
    export default function Home() {
      return (
        <h2 style={{ "text-transform": "capitalize" }}>
-         <M3terAlias seed={"device_DID_string"} />
+         {M3terAlias(seed="device_DID_string")}
        </h2>
      );
    }
