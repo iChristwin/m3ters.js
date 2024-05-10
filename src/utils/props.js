@@ -1,7 +1,7 @@
 import seedrandom from "seedrandom";
 
 export function m3terProps(seed) {
-  const random = seedrandom(seed);
+  const random = seedrandom.alea(seed);
   const eyesIndex = Math.round(random() * 15);
   const mouthIndex = Math.round(random() * 11);
   const textureIndex = Math.round(random() * 5);
