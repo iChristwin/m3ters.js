@@ -1,0 +1,55 @@
+name: Node.js Package
+
+on:
+  push:
+    tags:
+      - "v*" # Trigger when a version tag like v1.0.0 is pushed
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - run: npm ci
+      - run: npm run build || echo "No build step defined"
+
+  publish-npm:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          registry-url: https://registry.npmjs.org/
+
+      - run: npm ci
+      - run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+  release:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Create versioned release tarball
+        run: |
+          VERSION=${GITHUB_REF#refs/tags/}
+          REPO_NAME=$(basename $GITHUB_REPOSITORY)
+          mkdir -p release
+          tar -czf release/${REPO_NAME}-${VERSION}.tgz dist/ || tar -czf release/${REPO_NAME}-${VERSION}.tgz .
+
+      - name: Upload versioned release tarball
+        uses: softprops/action-gh-release@v1
+        with:
+          files: release/${{ github.event.repository.name }}-${{ github.ref_name }}.tgz
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
