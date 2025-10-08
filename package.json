@@ -43,7 +43,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "publish": "rollup -c && npm publish"
   },
   "type": "module",
   "source": "src/index.js",
