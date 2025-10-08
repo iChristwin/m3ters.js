@@ -8,7 +8,7 @@ export const M3terHead = ({
   size = 500,
 }: {
   seed: string;
-  size: number;
+  size?: number;
 }) => {
   const { eyesIndex, mouthIndex, textureIndex, color } = m3terProps(seed);
 
